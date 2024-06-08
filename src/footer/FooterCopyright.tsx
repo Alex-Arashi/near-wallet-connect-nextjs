@@ -1,9 +1,11 @@
+import Link from 'next/link';
+
 import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} {AppConfig.title}. Made with{' '}
-    <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>.
+    © Copyright {new Date().getFullYear()} {AppConfig.title}. Made By{' '}
+    <Link href="/">Alex Arashi</Link>.
     {/*
      * PLEASE READ THIS SECTION
      * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
@@ -12,11 +14,11 @@ const FooterCopyright = () => (
      */}
     <style jsx>
       {`
-        .footer-copyright :global(a) {
-          @apply text-primary-500;
+        .footer-copyright :global(Link) {
+          @apply text-sky-500;
         }
 
-        .footer-copyright :global(a:hover) {
+        .footer-copyright :global(Link:hover) {
           @apply underline;
         }
       `}
