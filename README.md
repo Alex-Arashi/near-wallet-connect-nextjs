@@ -117,8 +117,6 @@ Built-in feature from Next.js:
 - CTA banner
 - Footer
 
-Find more components in our [premium NextJS themes](https://creativedesignsguru.com/category/nextjs/).
-
 ### Philosophy
 
 - Minimal code
@@ -134,7 +132,7 @@ Find more components in our [premium NextJS themes](https://creativedesignsguru.
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template.git my-project-name
+git clone --depth=1 https://github.com/Alex-Arashi/near-wallet-connect-nextjs my-project-name
 cd my-project-name
 npm install
 ```
@@ -302,6 +300,7 @@ See [LICENSE](LICENSE) for more information.
 
 ---
 
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+Made with ♥ by [Alex Arashi](https://github.com/Alex-Arashi) 
+[![Telegram](https://t.me/alex_arashi)](https://t.me/alex_arashi)
 
-[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz)
+<!-- [![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz) -->
